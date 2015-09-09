@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Encryption Wizard</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Encryption Wizard</h1>
+    <p>Enter a phrase to encrypt</p>
+    <form id="encrypt">
+      <div class="form-group">
+        <input class="form-control" id="phrase" placeholder="The quick brown fox jumped over the lazy dog." type="text">
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-md btn-danger">Magic!</button>
+      </div>
+    </form>
+
+    <div id="result">
+      <p><span class="encrypt-result"></span></p>
+    </div>
+  </div>
+</body>
+</html>
